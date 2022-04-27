@@ -1,4 +1,74 @@
 baseURL: https://quentinlintz.com
 languageCode: en-us
-title: Quentin Lintz
+title: My Blog
+pagination: 5
 theme: "PaperMod"
+
+enableRobotsTXT: true
+enableEmoji: true
+googleAnalytics: G-XFS0222SWB
+
+params:
+    env: production
+    description: "My personal blog where I chronicle my thoughts and insights"
+    author: Quentin
+
+    defaultTheme: auto
+    comments: true
+    ShowShareButtons: true
+    ShowReadingTime: true
+    ShowPostNavLinks: true
+    ShowBreadCrumbs: true
+    ShowCodeCopyButtons: true
+    ShowToc: true
+    TocOpen: true
+    images: ["portrait.jpg"]
+
+    profileMode:
+        enabled: true
+        title: Quentin Lintz
+        subtitle: "💻 web developer 📕 avid reader"
+        imageUrl: "portrait.jpg"
+        imageTitle: "Portrait"
+        imageWidth: 120 
+        imageHeight: 120 
+        buttons:
+        buttons:
+          - name: Archives
+            url: archives
+          - name: Tags
+            url: tags
+          - name: Search
+            url: search
+
+    disqusShortname: quentinlintz
+
+    outputs:
+        home:
+            - HTML
+            - RSS
+            - JSON 
+
+    fuseOpts:
+        isCaseSensitive: false
+        shouldSort: true
+        location: 0
+        distance: 1000
+        threshold: 0.4
+        minMatchCharLength: 0
+        keys: ["title", "permalink", "summary", "content"]
+
+    socialIcons:
+        - name: github
+          url: "https://github.com/quentinlintz"
+        - name: twitter
+          url: "https://twitter.com/quentinlintz"
+        - name: linkedin
+          url: "https://linkedin.com/in/quentinlintz"
+
+    assets:
+        favicon: "icons/favicon.ico"
+        favicon16x16: "icons/favicon-16x16.png"
+        favicon32x32: "icons/favicon-32x32.png"
+        apple_touch_icon: "icons/apple-touch-icon.png"
+        android-chrome: "icons/android-chrome-512x512.png"
