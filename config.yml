@@ -27,7 +27,9 @@ params:
     profileMode:
         enabled: true
         title: Quentin Lintz
-        subtitle: "💻 web developer 📕 avid reader"
+        subtitle: >
+         I'm a software engineer and avid reader.
+         All opinions expressed in this blog are solely my own.
         imageUrl: "portrait.jpg"
         imageTitle: "Portrait"
         imageWidth: 120 
@@ -41,8 +43,6 @@ params:
             url: tags
           - name: Search
             url: search
-
-    disqusShortname: quentinlintz
 
     outputs:
         home:
