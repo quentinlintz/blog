@@ -10,12 +10,11 @@ googleAnalytics: G-XFS0222SWB
 
 params:
     env: production
-    description: "My personal blog where I chronicle my thoughts and insights"
+    description: "This personal blog is where I write about what I'm learning and practice conveying ideas."
     author: Quentin
 
     defaultTheme: auto
-    comments: true
-    ShowShareButtons: true
+    ShowShareButtons: false
     ShowReadingTime: true
     ShowPostNavLinks: true
     ShowBreadCrumbs: true
@@ -27,20 +26,22 @@ params:
     profileMode:
         enabled: true
         title: Quentin Lintz
-        subtitle: "💻 web developer 📕 avid reader"
-        imageUrl: "/portrait.jpg"
+        subtitle: >
+          I’m a software engineer and an avid reader. 
+          My favorite subjects to study are history, epistemology, ethics, mathematics, and innovative processes. 
+          I’m trying to become a better writer through this blog, and it also helps me keep a record of my thoughts. 
+          All opinions expressed in this blog are solely my own.
+        imageUrl: "portrait.jpg"
         imageTitle: "Portrait"
         imageWidth: 120 
         imageHeight: 120 
         buttons:
-          - name: Archives
-            url: archives
+          - name: Posts
+            url: posts
           - name: Tags
             url: tags
           - name: Search
             url: search
-
-    disqusShortname: quentinlintz
 
     outputs:
         home:
@@ -66,8 +67,8 @@ params:
           url: "https://linkedin.com/in/quentinlintz"
 
     assets:
-        favicon: "/icons/favicon.ico"
-        favicon16x16: "/icons/favicon-16x16.png"
-        favicon32x32: "/icons/favicon-32x32.png"
-        apple_touch_icon: "/icons/apple-touch-icon.png"
-        android-chrome: "/icons/android-chrome-512x512.png"
+        favicon: "icons/favicon.ico"
+        favicon16x16: "icons/favicon-16x16.png"
+        favicon32x32: "icons/favicon-32x32.png"
+        apple_touch_icon: "icons/apple-touch-icon.png"
+        android-chrome: "icons/android-chrome-512x512.png"
