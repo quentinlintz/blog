@@ -1,9 +1,12 @@
 ---
 author: "Quentin Lintz"
 title: "The Enlightenment's Impact on Scientific Interest in the Public Sphere"
+description: "Displays of the enormous scientific potential have memorialized achievements since the Age of Enlightenment..."
 date: "2022-04-28"
 tags: ["The Enlightenment", "Scientific Revolution", "Build in Public"]
 url: /2022/04/28/scientific-interest-in-the-public-sphere
+images: 
+ - https://en.chateauversailles.fr/sites/default/files/montgolfiere.jpg
 hideMeta: false
 searchHidden: true
 ShowBreadCrumbs: true
