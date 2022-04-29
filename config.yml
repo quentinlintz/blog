@@ -10,7 +10,7 @@ googleAnalytics: G-XFS0222SWB
 
 params:
     env: production
-    description: "My personal blog where I chronicle my thoughts and insights"
+    description: "This persona blog is where I write about what I'm learning and intend to practice conveying ideas."
     author: Quentin
 
     defaultTheme: auto
@@ -33,6 +33,8 @@ params:
         imageWidth: 120 
         imageHeight: 120 
         buttons:
+          - name: Posts
+            url: posts
           - name: Archives
             url: archives
           - name: Tags
