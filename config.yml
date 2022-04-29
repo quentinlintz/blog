@@ -14,8 +14,7 @@ params:
     author: Quentin
 
     defaultTheme: auto
-    comments: true
-    ShowShareButtons: true
+    ShowShareButtons: false
     ShowReadingTime: true
     ShowPostNavLinks: true
     ShowBreadCrumbs: true
@@ -28,8 +27,10 @@ params:
         enabled: true
         title: Quentin Lintz
         subtitle: >
-         I'm a software engineer and avid reader.
-         All opinions expressed in this blog are solely my own.
+          I’m a software engineer and an avid reader. 
+          My favorite subjects to study are history, epistemology, ethics, mathematics, and innovative processes. 
+          I’m trying to become a better writer through this blog, and it also helps me keep a record of my thoughts. 
+          All opinions expressed in this blog are solely my own.
         imageUrl: "portrait.jpg"
         imageTitle: "Portrait"
         imageWidth: 120 
@@ -37,8 +38,6 @@ params:
         buttons:
           - name: Posts
             url: posts
-          - name: Archives
-            url: archives
           - name: Tags
             url: tags
           - name: Search
