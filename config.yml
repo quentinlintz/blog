@@ -10,7 +10,7 @@ googleAnalytics: G-XFS0222SWB
 
 params:
     env: production
-    description: "This personal blog is where I write about what I'm learning and intend to practice conveying ideas."
+    description: "This personal blog is where I write about what I'm learning and practice conveying ideas."
     author: Quentin
 
     defaultTheme: auto
